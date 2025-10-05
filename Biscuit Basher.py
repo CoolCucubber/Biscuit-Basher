@@ -1,10 +1,15 @@
 import math, json
 import tkinter as tk
-from tkinter import ttk, PhotoImage
+from tkinter import ttk
 from PIL import Image, ImageTk
+from pathlib import Path
+
+path_to_json = Path(__file__).resolve().with_name("Biscuit Basher.json") #finds path for json file
+
+path_to_cookie = Path(__file__).resolve().with_name("cookie.png") #finds path for cookie.png file
 
 #import json file into dictionary's
-with open('Biscuit Basher.json', 'r') as file:
+with open(path_to_json, 'r') as file:
     Buttons = json.load(file)
 
     buildingButtons = Buttons['buildingButtons']
@@ -145,7 +150,7 @@ if __name__ == '__main__':
     Bps = 0
 
     #importing cookie.png
-    original_pil_image = Image.open("cookie.png")
+    original_pil_image = Image.open(path_to_cookie)
     original_width, original_height = original_pil_image.size
 
     cookieimage = ImageTk.PhotoImage(original_pil_image)
