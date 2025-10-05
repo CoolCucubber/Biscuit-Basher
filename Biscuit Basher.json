@@ -1,0 +1,236 @@
+{
+    "buildingButtons" : {
+        "Basher" : {
+            "baseCost" : 15,
+            "gives" : 0.1,
+            "plural" : "Bashers"
+        },
+        "Old Tea Haver" : {
+            "baseCost" : 100,
+            "gives" : 1,
+            "plural" : "Old Tea Havers"
+        },
+        "Small Holding" : {
+            "baseCost" : 1100,
+            "gives" : 8,
+            "plural" : "Small Holdings"
+        },
+        "Deposit" : {
+            "baseCost" : 12000,
+            "gives" : 47,
+            "plural" : "Deposits"
+        },
+        "Mill" : {
+            "baseCost" : 130000,
+            "gives" : 260,
+            "plural" : "Mills"
+        },
+        "Repository" : {
+            "baseCost" : 1400000,
+            "gives" : 1400,
+            "plural" : "Repositories"
+        },
+        "House of God" : {
+            "baseCost" : 20000000,
+            "gives" : 7800,
+            "plural" : "House's of God"
+        },
+        "Merlin's Homestead" : {
+            "baseCost" : 330000000,
+            "gives" : 44000,
+            "plural" : "Merlin's Homesteads"
+        },
+        "Freight" : {
+            "baseCost" : 5100000000,
+            "gives" : 260000,
+            "plural" : "Freights"
+        },
+        "Chemistry Room" : {
+            "baseCost" : 75000000000,
+            "gives" : 1600000,
+            "plural" : "Chemistry Rooms"
+        },
+        "Threshold" : {
+            "baseCost" : 1000000000000,
+            "gives" : 100000000,
+            "plural" : "Thresholds"
+        },
+        "Police Box" : {
+            "baseCost" : 14000000000000,
+            "gives" : 65000000,
+            "plural" : "Police Boxes"
+        },
+        "Anteamatter Crusher" : {
+            "baseCost" : 170000000000000,
+            "gives" : 430000000,
+            "plural" : "Anteamatter Crushers"
+        },
+        "Kaleidoscope" : {
+            "baseCost" : 2100000000000000,
+            "gives" : 2900000000,
+            "plural" : "Kaleidoscope"
+        },
+        "Probability Creator" : {
+            "baseCost" : 26000000000000000,
+            "gives" : 21000000000,
+            "plural" : "Probability Creators"
+        },
+        "Exponential Drive" : {
+            "baseCost" : 310000000000000000,
+            "gives" : 150000000000,
+            "plural" : "Exponential Drives"
+        },
+        "Python Terminal" : {
+            "baseCost" : 71000000000000000000,
+            "gives" : 1100000000000,
+            "plural" : "Python Terminals"
+        },
+        "Existence Plane" : {
+            "baseCost" : 12000000000000000000000,
+            "gives" : 8300000000,
+            "plural" : "Existance Planes"
+        },
+        "Cerebrum Cooker" : {
+            "baseCost" : 1900000000000000000000000,
+            "gives" : 64000000000000,
+            "plural" : "Cerebrum Cookers"
+        },
+        "Thyself" : {
+            "baseCost" : 540000000000000000000000000,
+            "gives" : 510000000000000,
+            "plural" : "Thyselves"
+        }
+    },
+
+    "upgradeButtons" : {
+        "Basher" : {
+            "level" : {
+                "0" : {
+                    "Bonus" : 1,
+                    "bpsBonus" : 0
+                },
+                "1" : {
+                    "name" : "Reinforced Basher",
+                    "unlock" : 1,
+                    "Cost" : 100,
+                    "Bonus" : 2,
+                    "bpsBonus" : 0
+                },
+                "2" : {
+                    "name" : "Greased Basher",
+                    "unlock" : 1,
+                    "Cost" : 500,
+                    "Bonus" : 4,
+                    "bpsBonus" : 0
+                },
+                "3" : {
+                    "name" : "Ambidextrous",
+                    "unlock" : 10,
+                    "Cost" : 10000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 0
+                },
+                "4" : {
+                    "name" : "Thousand Bashers",
+                    "unlock" : 25,
+                    "Cost" : 1000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 1
+                },
+                "5" : {
+                    "name" : "Million Bashers",
+                    "unlock" : 50,
+                    "Cost" : 10000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 5
+                },
+                "6" : {
+                    "name" : "Billion Bashers",
+                    "unlock" : 100,
+                    "Cost" : 100000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 50
+                },
+                "7" : {
+                    "name" : "Trillion Bashers",
+                    "unlock" : 150,
+                    "Cost" : 1000000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 1000
+                },
+                "8" : {
+                    "name" : "Quadrillion Bashers",
+                    "unlock" : 200,
+                    "Cost" : 10000000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 20000
+                },
+                "9" : {
+                    "name" : "Quintillion Bashers",
+                    "unlock" : 250,
+                    "Cost" : 10000000000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 400000
+                },
+                "10" : {
+                    "name" : "Sextillion fingers",
+                    "unlock" : 300,
+                    "Cost" : 10000000000000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 8000000
+                },
+                "11" : {
+                    "name" : "Septillion fingers",
+                    "unlock" : 350,
+                    "Cost" : 10000000000000000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 160000000
+                },
+                "12" : {
+                    "name" : "Octillion fingers",
+                    "unlock" : 400,
+                    "Cost" : 10000000000000000000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 3200000000
+                },
+                "13" : {
+                    "name" : "Nonillion fingers",
+                    "unlock" : 450,
+                    "Cost" : 10000000000000000000000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 64000000000
+                },
+                "14" : {
+                    "name" : "Decillion fingers",
+                    "unlock" : 500,
+                    "Cost" : 10000000000000000000000000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 1280000000000
+                },
+                "15" : {
+                    "name" : "Undecillion fingers",
+                    "unlock" : 550,
+                    "Cost" : 10000000000000000000000000000000,
+                    "Bonus" : 8,
+                    "bpsBonus" : 25600000000000
+                }
+            },
+            "maxLevel" : 15
+            
+        },
+        "Old Tea Haver" : {
+            "level" : {
+                "0" : {
+                    "Bonus" : 1
+                },
+                "1" : {
+                    "name" : "Cyanide Tea",
+                    "unlock" : 1,
+                    "Cost" : 1000,
+                    "Bonus" : 2
+                  }
+            },
+            "maxLevel" : 0
+        }
+    }
+}
